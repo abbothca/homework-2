@@ -14,7 +14,7 @@ body{
     padding: 20px 40px;
 }
 
-h1, h2{
+h1, h2, h3{
     margin: 0;
     color: #653393;
 }
@@ -33,7 +33,7 @@ h1, h2{
     margin: 20px 0;
 }
 
-.submenu{
+.menu{
     list-style-type: lower-latin;
 }
 

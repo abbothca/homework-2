@@ -1,30 +1,84 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
-    <link rel="manifest" href="./favicon/site.webmanifest" />
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
-    <title>Home work #2</title>
-  </head>
-  <body>
-    <header class="header">
-      <h1>
-        Home work #2
-      </h1>
-      <p class="autor">
-        Хомич Любов
-      </p>
-    </header>
-    <main class="main">
-      <h2>
-        Перетворення примітивних типів, примітивні типи даних в деталях
-      </h2>
 
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon/site.webmanifest" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./js/script.js"></script>
+  <title>Home work #2</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Home work #2</h1>
+    <p class="autor">Хомич Любов</p>
+  </header>
+  <main class="main">
+    <h2>Перетворення примітивних типів, примітивні типи даних в деталях</h2>
+    <article>
+      <h3>1. Перетворення типів</h3>
+      <p>
+        Створіть змінну довільного типу. Проведіть наступні перетворення з
+        нею:
+      </p>
+      <ul class="menu">
+        <li>перетворіть її на рядок</li>
+        <li>перетворіть її на число</li>
+        <li>перетворіть її на булеве значення</li>
+      </ul>
+      <p>
+        Результат виконання кожного перетворення вивести через
+        <code>console.log</code>
+      </p>
+      <p>
+        Під час виконання завдання необхідно використовувати
+        <code>“use strict”</code>
+      </p>
+    </article>
+
+    <article>
+      <h3>2. Конвертер валют</h3>
+      <p>
+        Написати програму, яка конвертує гривні (UAH) в долари (USD). Спочатку
+        задайте змінну <var>rate</var>, яка буде відображати поточний курс
+        долара до гривні. Потім отримайте від користувача суму гривень (можна
+        використати <code>prompt</code> який розбирали на занятті), яку він
+        хоче конвертувати, і виведіть відповідний результат у доларах в
+        консоль.
+      </p>
+    </article>
+
+    <article>
+      <h3>3. Обчислення вартості бензину</h3>
+      <p>
+        Користувач вводить кількість літрів бензину, яку він хоче купити, та
+        ціну за літр. Програма обчислює вартість та виводить суму, округлену
+        до <strong>сотих</strong>.
+      </p>
+    </article>
+
+    <article>
+      <h3>4. Додаткова задача*</h3>
+      <p>
+        Напишіть змінну <var>binaryResult</var> яка представляє з себе суму
+        двох чисел у бінарному вигляді. Це бінарне число має повертатись з
+        типом <var>string</var>
+      </p>
+      <pre>
+        <code>
+          let a = 10 // може бути будь-яке інше ціле додатнє число 
+          let b = 20 // може бути будь-яке інше ціле додатнє число 
+          let binaryResult = //...тут ваш код 
+          console.log(binaryResult); // виведе в консоль бінарне число строкою
+        </code>
+      </pre>
+    </article>
+  </main>
+</body>
+
 </html>
