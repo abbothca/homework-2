@@ -39,7 +39,7 @@ let litersOrder = +prompt("Введіть скільки літрів бензи
 // Далі зчитуємо в змінну priceLitrePetrol і зразу перетворюємо в Number
 let priceLitrePetrol = +prompt("!!!Акція!!!\nСьогодні ціну встановлюєте Ви! \nТо яка ціна за літр бензину?");   
 console.log(`Ви замовили ${litersOrder} л бензину за ціною ${priceLitrePetrol} грн/л`);
-// let orderPrice = Math.round(100 * litersOrder * priceLitrePetrol) / 100;
+// let orderPrice = Math.round(100 * litersOrder * priceLitrePetrol) / 100;  //  лишаємо два знаки після коми через Math.round
 let orderPrice = (litersOrder * priceLitrePetrol).toFixed(2);   // одразу рахуємо вартість бензину і лишаємо два знаки після коми
 console.log(`Вартість Вашого замовлення сьогодні: ${orderPrice} грн! \nБажаємо гарного дня!`);
 
