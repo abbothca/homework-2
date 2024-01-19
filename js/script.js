@@ -7,10 +7,10 @@ console.log("%c    Task 1", "color:red");
 let variable = "jhf43";
 console.log("Введена змінна: ", { variable }, "\n typeof is ", typeof variable);
 
-// let numberValue = +variable;
+// let numberValue = +variable;  
 let numberValue = Number(variable);
 console.log(`Number(${variable}) =`, numberValue, `\ntype of the result is `, typeof numberValue);
-// Нотатка. Якщо вввести рядкову змінну, виходить, що NaN відповідає типу Number
+// Нотатка. Якщо вввести рядкову змінну, виходить, що значення NaN відповідає типу Number
 
 // let booleanValue = Boolean(variable);
 let booleanValue = !!variable;
@@ -24,12 +24,13 @@ console.log(`${variable}.toString =`, srtingValue, `\ntype of the result is `, t
 // --------------- Завдання 2 ----------------------------------------------------------------------------
 console.log("------------------------------");
 console.log("%c    Task 2", "color:red");
-let rate = 37.87;
-let amountUa = +prompt("Скільки UA Ви хочете конвертувати в USD?");   // зчитуємо і зразу перетворюємо в Number
-console.log("You have ", amountUa, "UA");
-let amountUsd = Math.floor(100 * amountUa / rate) / 100;              // рахуємо кількість USD і заокруглюємо до меншого
-let restUa = Math.floor(100 * (amountUa - amountUsd * rate)) / 100;   // рахуємо решту UA, яка не може бути конвертована
-console.log(`Ви можете обміняти ваші ${amountUa} UA на `, amountUsd, " USD і ", restUa, " UA решти");
+// let rate = 37.87;
+const rate = 37.87;
+let amountUah = +prompt("Скільки UAH Ви хочете конвертувати в USD?");   // зчитуємо і зразу перетворюємо в Number
+console.log("You have ", amountUah, "UAH");
+let amountUsd = Math.floor(100 * amountUah / rate) / 100;              // рахуємо кількість USD і заокруглюємо до меншого
+let restUah = Math.floor(100 * (amountUah - amountUsd * rate)) / 100;   // рахуємо решту UA, яка не може бути конвертована
+console.log(`Ви можете обміняти ваші ${amountUah} UAH на `, amountUsd, " USD і ", restUah, " UAH решти");
 
 // --------------- Завдання 3 ----------------------------------------------------------------------------
 console.log("------------------------------");
